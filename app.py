@@ -10,6 +10,6 @@ options.headless = True
 driver = webdriver.Firefox(options=options, executable_path='/usr/local/bin/geckodriver')
 driver.get(website)
 
-driver.get_screenshot_as_file("screenshot.png")
+driver.get_screenshot_as_file("/opt/screenshot.png")
 driver.quit()
 print("end...")
