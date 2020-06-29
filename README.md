@@ -16,7 +16,8 @@ docker run --name app --mount type=bind,source="$(pwd)",target=/opt gabytal333/s
 #The default location for the screenshot to be saved is your current directory that you run the docker run command from,
 to choose a different location, You can change the "$pwd" with any directory on your host.
 
-#For heavy websites with a large static content, please add the docker shared memory parameter. "--shm-size *g"
+#For heavy websites with a large static content, please raise the shared memory for the container.
+To do it just add the docker shared memory parameter. "--shm-size *g"
 For example: docker run --name app --mount type=bind,source="$(pwd)",target=/opt --shm-size 2g screenshot-app "https://www.walla.co.il" 
 
 Gaby Tal.
