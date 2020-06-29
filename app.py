@@ -41,8 +41,10 @@ except WebDriverException as e:
     print("Quiting...")
     sys.exit(1)
 except PermissionError as e:
-    print("Driver permission Error! have you used the right permissions?")
+    print("Permission Error! have you used the right permissions?")
+    sys.exit(1)
 
+#set the session timeout
 driver.set_page_load_timeout(50)
 
 #load the website
@@ -60,7 +62,7 @@ except TimeoutException as e:
     print("Quiting program...")
     sys.exit(1)
 except WebDriverException as e:
-    print("Connection problem, please check your internet connection or the URL that has been provided")
+    print("Connection problem, please check the URL that has been provided and make sure you have active internet connection")
     print("Quiting program...")
     sys.exit(0)
  
