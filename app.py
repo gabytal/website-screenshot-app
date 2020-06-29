@@ -1,7 +1,12 @@
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.common.exceptions import WebDriverException, TimeoutException, InvalidArgumentException
-import sys
+try:
+    import sys
+    from selenium import webdriver
+    from selenium.webdriver.firefox.options import Options
+    from selenium.common.exceptions import WebDriverException, TimeoutException, InvalidArgumentException
+    
+except ModuleNotFoundError:
+    print("Importing required modules faild. please install selenium with pip")
+    sys.exit(0)
 
 try:
     website = sys.argv[1]
@@ -12,7 +17,7 @@ except IndexError:
 
 if "https://" in website:
     pass
-if "http://" in website:
+elif "http://" in website:
     pass
 else:
     print("invalid URL, please provide the right protocol before the URL, for example: https://google.com")
@@ -38,6 +43,10 @@ except InvalidArgumentException as e:
 except TimeoutException as e:
     print("Page load Timeout Occured. Quiting...")
     print("Quiting program...")
+except WebDriverException as e:
+    print(e)
+    print("Quiting program...")
+    sys.exit(0)
 
 
 try:    
