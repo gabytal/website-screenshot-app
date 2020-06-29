@@ -76,8 +76,9 @@ try:
     else:
         print("Screenshot has not been saved. do you have the right permissions?")
 
-except Exception:
+except Exception as e:
     print("Oops, error saving the screenshot")
+    print(e)
     print("Quiting..")
     sys.exit(1) 
 
