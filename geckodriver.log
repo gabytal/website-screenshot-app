@@ -20,3 +20,22 @@ JavaScript warning: https://cdn.somplo.com/prod/test/070419/MainScript.min.js?cb
 JavaScript warning: https://cdn.somplo.com/prod/test/070419/MainScript.min.js?cb=60, line 1: unreachable code after return statement
 1593445884970	Marionette	INFO	Stopped listening on port 46247
 [Parent 23583, Gecko_IOThread] WARNING: pipe error (108): Connection reset by peer: file /builddir/build/BUILD/firefox-68.7.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Failed to open connection to "session" message bus: /usr/bin/dbus-launch terminated abnormally with the following error: No protocol specified
+Autolaunch error: X11 initialization failed.
+
+1593448782207	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.25yElOj0ec48"
+Failed to open connection to "session" message bus: /usr/bin/dbus-launch terminated abnormally with the following error: No protocol specified
+Autolaunch error: X11 initialization failed.
+
+Running without a11y support!
+*** You are running in headless mode.
+1593448782516	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593448782517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593448782517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593448782517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://340a923a-bb8d-4cd2-8f7f-d5f48bc64647/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1593448783568	Marionette	INFO	Listening on port 36277
+1593448783619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593448801034	Marionette	INFO	Stopped listening on port 36277

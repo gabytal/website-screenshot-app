@@ -14,17 +14,17 @@ except ModuleNotFoundError:
 try:
     website = sys.argv[1]
 except IndexError:
-    print("ooops, no website has entered, please provide a website URL")
+    print("ooops, no website has been provided, please provide a website URL")
     print ("exit program..")
     sys.exit(1)
 
-   #check if the url scheme has provided
+   #check if the url is valid
 if "https://" in website:
     pass
 elif "http://" in website:
     pass
 else:
-    print("invalid URL has entered, please check protocol scheme, for example: https://google.com")
+    print("invalid URL has been entered, please check protocol scheme, for example: https://google.com")
     print("Quiting program...")
     sys.exit(1)
 
@@ -64,7 +64,7 @@ except TimeoutException as e:
 except WebDriverException as e:
     print("Connection problem, please check the URL that has been provided and make sure you have active internet connection")
     print("Quiting program...")
-    sys.exit(0)
+    sys.exit(1)
  
 #save a screenshot of the website
 try:    
