@@ -1,0 +1,79 @@
+1593426870301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WgDyfaiu0um0"
+*** You are running in headless mode.
+1593426870836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593426870836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593426870839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593426870839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://693d84cc-d209-440d-bb52-036639e7ae32/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1593426872769	Marionette	INFO	Listening on port 44048
+1593426872801	Marionette	WARN	TLS certificate errors will be ignored for this session
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+1593426950519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X9L4bddgakSC"
+*** You are running in headless mode.
+1593426951302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593426951303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593426951303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593426951303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://ffbb9255-83bc-4fac-8123-19d2cc4b4eb7/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1593426955213	Marionette	INFO	Listening on port 44943
+1593426955341	Marionette	WARN	TLS certificate errors will be ignored for this session
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+1593427035505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zUcm6W56XVN7"
+*** You are running in headless mode.
+1593427036224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593427036225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593427036225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593427036225	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://94b1a01a-cc69-472e-9ca0-3b3dd3578a44/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1593427039748	Marionette	INFO	Listening on port 39636
+1593427039861	Marionette	WARN	TLS certificate errors will be ignored for this session
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+1593427053042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PqxWWowMzIp6"
+*** You are running in headless mode.
+1593427053835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593427053835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593427053836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593427053836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://cc247a95-0671-4d83-985f-c3c714baee27/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+1593427057390	Marionette	INFO	Listening on port 42761
+1593427057672	Marionette	WARN	TLS certificate errors will be ignored for this session
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+1593427148341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.D9DNYqHbmQlu"
+*** You are running in headless mode.
+1593427149072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1593427149072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1593427149073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1593427149073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+JavaScript error: moz-extension://a4e721c2-4d36-4489-91c8-86113fc4e91a/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1593427151489	Marionette	INFO	Listening on port 36679
+1593427151533	Marionette	WARN	TLS certificate errors will be ignored for this session
+1593427157324	Marionette	INFO	Stopped listening on port 36679
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
+Fontconfig warning: Directory/file mtime in the future. New fonts may not be detected.
