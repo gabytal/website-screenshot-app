@@ -37,13 +37,13 @@ options.headless = True
 try:
     driver = webdriver.Firefox(options=options, executable_path='/usr/local/bin/geckodriver')
 except WebDriverException as e:
-    print("Cannot find gecodriver executable")
+    print("Error with gecodriver")
+    print("Quiting...")
     sys.exit(1)
 except PermissionError as e:
     print("Driver permission Error! have you used the right permissions?")
 
-#set the session timeout
-driver.set_page_load_timeout(30)
+driver.set_page_load_timeout(50)
 
 #load the website
 try :
@@ -60,7 +60,7 @@ except TimeoutException as e:
     print("Quiting program...")
     sys.exit(1)
 except WebDriverException as e:
-    print("Connection refused")
+    print("Connection problem, please check your internet connection or the URL that has been provided")
     print("Quiting program...")
     sys.exit(0)
  
@@ -77,5 +77,5 @@ try:
 except Exception:
     print("Oops, error saving the screenshot")
     print("Quiting..")
-    sys.exit(1)
+    sys.exit(1) 
 
